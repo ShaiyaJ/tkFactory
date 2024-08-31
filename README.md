@@ -14,6 +14,11 @@ Overall, I learned some pretty valuable lessons from this project. I have more i
 The tutorials do an okay job at explaining the game, but I feel it's necessary to include a manual. Treat it like a reference:
 
 ## Manual
+### Requirements
+Python 3.12.4 is required. Run `./tkFactory/src/main.py` or `cd` into your `tkFactory` folder and run `python src/main.py`.
+
+All development was done on Windows 11, and Windows is the only "officially" supported OS. However, this game should work on Linux and Mac as Python is relatively portable. However, other platforms may see different graphical behavior.
+
 ### Controls
 The game is controlled with the mouse for the most part. Buttons navigate through menus, select action modes and determine where actions take place. 
 
