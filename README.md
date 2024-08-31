@@ -33,37 +33,37 @@ In this mode, you must destroy all source materials and make sure a HQ tile gets
 
 ### Materials
 #### Wood
-<img src="./assets/tree.png" style="width: 256; height: 256; image-rendering: pixelated;">
-<img src="./assets/h_tree.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/tree.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/h_tree.png" style="width: 256; height: 256; image-rendering: pixelated;">
 
 Mined by a chopping site. 
 
 #### Stone
-<img src="./assets/stone.png" style="width: 256; height: 256; image-rendering: pixelated;">
-<img src="./assets/h_stone.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/stone.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/h_stone.png" style="width: 256; height: 256; image-rendering: pixelated;">
 
 Mined by a mining site.
 
 #### Metal
-<img src="./assets/metal.png" style="width: 256; height: 256; image-rendering: pixelated;">
-<img src="./assets/h_metal.png" style="width: 256; height: 256; image-rendering: pixelated;"> 
+<img src="./src/assets/metal.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/h_metal.png" style="width: 256; height: 256; image-rendering: pixelated;"> 
 
 Mined by a drill.
 
 #### Oil
-<img src="./assets/oil.png" style="width: 256; height: 256; image-rendering: pixelated;">
-<img src="./assets/h_oil.png" style="width: 256; height: 256; image-rendering: pixelated;"> 
+<img src="./src/assets/oil.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/h_oil.png" style="width: 256; height: 256; image-rendering: pixelated;"> 
 
 Mined by an oil drill.
 
 #### Water
-<img src="./assets/water.png" style="width: 256; height: 256; image-rendering: pixelated;">
-<img src="./assets/h_water.png" style="width: 256; height: 256; image-rendering: pixelated;"> 
+<img src="./src/assets/water.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/h_water.png" style="width: 256; height: 256; image-rendering: pixelated;"> 
 
 Not mined. However, it is a requirement in making power.
 
 #### Gold
-<img src="./assets/gold.png" style="width: 256; height: 256; image-rendering: pixelated;">
+<img src="./src/assets/gold.png" style="width: 256; height: 256; image-rendering: pixelated;">
 
 Gold is not a material that you can mine. It was originally intended as that, but it was repurposed as a currency which acts as a penalty for buying materials and destroying buildings. 
 
@@ -84,90 +84,90 @@ The game's tutorials didn't really have the room to get into super "in-depth" sp
 Any requirements do appear in a bubble next to a red warning triangle. If you're ever confused on what you need, then the next requirement for the building can be seen in the bubble.
 
 #### CHOPPING SITE
-<img src="./assets/chopping_site.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/chopping_site.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 2 |
 | **Range** | 1 |
-| **Requirements** | 1 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 1 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 There are no operating requirements for this building.
 
 #### MINING SITE
-<img src="./assets/mining_site.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/mining_site.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 2 |
 | **Range** | 1 |
-| **Requirements** | 2 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 2 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 There are no operating requirements for this building.
 
 #### BOILER
-<img src="./assets/boiler.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/boiler.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 4 |
 | **Range** | 1 |
-| **Requirements** | 2 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 2 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 2 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 2 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 This building requires water to run. It produces steam.
 
 #### STEAM GEN
-<img src="./assets/generator.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/generator.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 4 |
 | **Range** | 2 |
-| **Requirements** | 2 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 2 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 2 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 2 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 This building requires steam to run. It produces power.
 
 #### DRILL
-<img src="./assets/drill.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/drill.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 2 |
 | **Range** | 1 |
-| **Requirements** | 0 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 1 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 0 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 1 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 This building requires power to run.
 
 #### OIL DRILL
-<img src="./assets/oil_drill.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/oil_drill.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 4 |
 | **Range** | 1 |
-| **Requirements** | 0 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 3 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 1 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 0 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 3 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 1 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 This building requires power to run.
 
 #### POWER LINE
-<img src="./assets/power_line.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/power_line.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 1 |
 | **Range** | 2 |
-| **Requirements** | 1 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 1 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 1 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 1 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 This building requires power to run. It produces (carries) power.
 
 #### CONVEYOR
-<img src="./assets/conveyor.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
+<img src="./src/assets/conveyor.png/" style="width: 256; height: 256; image-rendering: pixelated;" />
 
 | | | 
 | --- | --- | 
 | **Health** | 1 |
 | **Range** | Single tile (dependent on rotation) |
-| **Requirements** | 0 <img src="./assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
+| **Requirements** | 0 <img src="./src/assets/h_tree.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_stone.png" style="width: 38; height: 38; image-rendering: pixelated;"> 0 <img src="./src/assets/h_metal.png" style="width: 38; height: 38; image-rendering: pixelated;"> | 
 
 This building requires power to run.
 
