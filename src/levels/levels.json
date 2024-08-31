@@ -1,0 +1,188 @@
+[
+    {
+        "win": "no_source",
+        "starting_gold": 0,
+        "tiles": [
+            "====",
+            "==W=",
+            "=w==",
+            "===="
+        ],
+        "message": "TUTORIAL 1 - To beat levels, you must harvest all resources. Place a chopping site <6> within the range of the wood and the tree."
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 0,
+        "tiles": [
+            "====",
+            "=S==",
+            "====",
+            "==W=",
+            "=w==",
+            "===="
+        ],
+        "message": "TUTORIAL 2 - Different source blocks require different tools. Tools need harvested materials to be built. You can see the required\nmaterials in the warning bubble when placing a building. Try placing the chopping site <6> to mine the tree in a way that allows\nyou to build a mining site <7> to mine the stone above it."
+    },
+
+    {
+        "win": "all_hq",
+        "starting_gold": 0,
+        "tiles": [
+            "====",
+            "====",
+            "==W=",
+            "=w==",
+            "===="
+        ],
+        "message": "TUTORIAL 3 - Sometimes you may be asked to deliver all your materials to a HQ. There can only be one HQ at a time. HQs will\nreward you with money in return for your goods. However, any goods in the HQ cannot be used. The money can be used to demolish\nexisting buildings or buy source materials. Place a HQ <k> and a chopping site <6> in such a way that all the wood is collected by\nthe HQ."
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 2,
+        "tiles": [
+            "==~~~~",
+            "=S~~S~",
+            "====~~",
+            "~=W==~",
+            "~w~~~~",
+            "~~~~~~"
+        ],
+        "message": "TUTORIAL 4 - Sometimes you may have to buy a source material. Source materials cost 2 gold each. Place a chopping site <x> to get\nwood, then place 2 mining sites <x> to mine the stone. To build the second mining site, you will have to buy a source material to\nget more wood. You do NOT have to deliver to an HQ."
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 2,
+        "tiles": [
+            "========",
+            "========",
+            "====w===",
+            "=====W==",
+            "=~===M==",
+            "====~===",
+            "w=WS===",
+            "~~W=====",
+            "========"
+        ],
+        "message": "TUTORIAL 5 - Some source blocks may require constant links to non-harvestable materials such as water, steam or power. To mine the\nmetal source, you need a drill. Drills require power. To make power, place a boiler <9> in range of water to make steam, then\nplace a steam generator <y> to generate electricity (generators have 2 tiles of range). Then you can place a drill <x> to harvest the metal.\nAlong the way you need to harvest the material to build each of these buildings."
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 6,
+        "tiles": [
+            "========",
+            "========",
+            "====w===",
+            "=====W==",
+            "=~===M=O",
+            "====~===",
+            "w=WS~===",
+            "~~W===S=",
+            "=====ww="
+        ],
+        "message": "TUTORIAL 6 - Oil drills can harvest oil. They require power to operate. Use power lines <x> to carry power to the oil drill <x>\n(power lines have 2 tiles of range)."
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 2,
+        "tiles": [
+            "==========",
+            "==========",
+            "====w=====",
+            "=====W====",
+            "=~===M===W",
+            "====~=====",
+            "w=WSW====",
+            "~~W==w====",
+            "=========="
+        ],
+        "message": "TUTORIAL 7 - Conveyors can be used to move materials from one tile to another. While a material is on a Conveyor it cannot be used.\nConveyors cost no materials to build, but do require power to function.You can also make tiles turn across corners by combining different\nrotations of conveyor. Conveyors have range 2 when searching for power, but only 1 tile of input and 1 tile of output."
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 4,
+        "tiles": [
+            "===========",
+            "====W======",
+            "===========",
+            "=======~XX=",
+            "===~=XXXX=",
+            "===W==WXX==",
+            "====w=XwS==",
+            "==========="
+        ],
+        "message": "Destroy all source tiles on the map!"
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 2,
+        "tiles": [
+            "============",
+            "===m==m=====",
+            "==mMss=w====",
+            "===mSS=m====",
+            "===S==m=====",
+            "=m======X=S=",
+            "====W=W=====",
+            "====~w~====="
+        ],
+        "message": "Destroy all source tiles on the map!"
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 12,
+        "tiles": [
+            "~~~~~~~~~~~~~",
+            "~smwsmwmswms~",
+            "~mwsmwswmswm~",
+            "~wsmwsmswmsw~",
+            "~sws=O=O=sws~",
+            "~sws=O=O=sws~",
+            "~smwsmwmswms~",
+            "~mwsmwswmswm~",
+            "~wsmwsmswmsw~",
+            "~~~~~~~~~~~~~"
+        ],
+        "message": "Destroy all source tiles on the map!"
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 6,
+        "tiles": [
+            "~wwwwwwwwwwww~",
+            "~wW=W=W=W=W=w~",
+            "~w=S=S=S=S=Sw~",
+            "~wM=M=M=M=M=w~",
+            "~w===X==X===w~",
+            "~======O=====~",
+            "~wM=M=M=M=M=w~",
+            "~w=S=S=S=S=Sw~",
+            "~wW=W=W=W=W=w~",
+            "~wwwwwwwwwwww~"
+        ],
+        "message": "Destroy all source tiles on the map!"
+    },
+
+    {
+        "win": "no_source",
+        "starting_gold": 50,
+        "tiles": [
+            "~~~~~~~",
+            "~~=w=~~",
+            "~w===w~",
+            "~==M==~",
+            "~w===w~",
+            "~~=w=~~",
+            "~~~~~~~"
+        ],
+        "message": "Destroy all source tiles on the map!"
+    }
+]
