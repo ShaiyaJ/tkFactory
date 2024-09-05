@@ -1,0 +1,36 @@
+body {
+	margin: 0px;
+}
+
+.bg {
+	background-image: url("./ground.png");
+	background-repeat: repeat;
+	image-rendering: pixelated;
+	background-size: 64px;
+}
+
+.main {
+	background-color: #AF6E42;
+	color: #FF9A56;
+	margin: auto;
+	width: 50%;
+	padding: 50px;
+	
+	font-family: consolas, monospace;
+}
+
+.main img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100%;
+}
+
+.main p {
+	color: #FFE568;
+}
+
+.main a {
+	color: #EAC659;
+}
